@@ -15,12 +15,15 @@ function generatePassword(){
     // let pwdLength = prompt("how many characters")
     // console.log(pwdLength)
     let pwdLength = prompt("how many characters between 8 and 128")
-if(pwdLength <8){
+if(pwdLength <8 && pwdLength > 128){
   alert ("Please insert number between 8 and 128")
   prompt("how many characters between 8 and 128")
-}if (pwdLength > 128){
-  alert ("Please insert number between 8 and 128")
-  prompt("how many characters between 8 and 128")
+}else {
+    return pwdLength
+  }
+// }else (){
+//   alert ("Please insert number between 8 and 128")
+//   prompt("how many characters between 8 and 128")
 }
 
      console.log(pwdLength)
@@ -62,10 +65,12 @@ console.log(final)
 var allDigits = big.concat(small, characters, digits);
 console.log(allDigits)
 
-var yes = allDigits[Math.floor(Math.random()*allDigits.length)];
+var yes = 
+ allDigits[Math.floor(Math.random()*allDigits.length)];
 
 
-return final;
+// return console.log("test ",final);
+
 
 
 
@@ -88,18 +93,6 @@ return final;
   // return password
 
   // return password;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
