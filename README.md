@@ -1,6 +1,7 @@
 # Password-Generator
 
-/Users/aaronanglin/Desktop/coding-bootcamp/Password-Generator/images/Screen Shot 2022-06-27 at 8.33.07 AM.png
+![image](https://user-images.githubusercontent.com/101485583/175965603-dcab12be-42d2-49fb-852c-0859112e367e.png)
+
 
 This is my javascript password generator. I had some issues and had help getting it fix.
 
